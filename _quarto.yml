@@ -6,7 +6,7 @@ project:
     browser: true
 
 website:
-  title: "blogup: brainworkup blog"
+  title: "brainworkup blog"
   image: images/logo.png
   favicon: images/favicon.png
   open-graph:
@@ -36,7 +36,7 @@ website:
   reader-mode: false
   navbar:
     right:
-      - about.qmd
+      - blog.qmd
   page-footer:
     left: |
       MIT Licensed | Copyright © 2017-present Joey Trampush | BrainWorkup, LLC
