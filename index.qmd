@@ -1,14 +1,22 @@
 ---
-title: "blogup"
+title: "bwu blog"
+subtitle: |
+  Articles about neuropsychology, neuroscience, data science, and mental health
 listing:
-  contents: posts
   sort: "date desc"
-  type: default
-  categories: true
+  contents: "posts/**/index.qmd"
   sort-ui: false
   filter-ui: false
+  categories: numbered
+  feed: true
+  date-format: medium
+  type: default
 page-layout: full
+# margin-header: signup.html
 title-block-banner: true
+title-block-banner-color: "rgba(173, 255, 47, 1)" #"#d4eb50"
+title-block-style: default
+sidebar: false
+css: src/index.css
 ---
-
 

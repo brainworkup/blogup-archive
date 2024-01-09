@@ -1,8 +1,39 @@
 project:
   type: website
+  output-dir: docs
+  preview:
+    port: 3000
+    browser: true
 
 website:
-  title: "blogup"
+  title: "blogup: brainworkup blog"
+  image: images/logo.png
+  favicon: images/favicon.png
+  open-graph:
+    locale: en_US
+    site-name: brainworkup
+    image: "images/logo.png"
+    image-width: 96
+    image-height: 96
+  twitter-card:
+    creator: "@brainworkup"
+    site: "@brainworkup"
+    card-style: "summary_large_image"
+    image: "preview.png"
+    image-width: 96
+    image-height: 96
+  site-url: https://blog.brainworkup.org/
+  site-path: "/"
+  repo-url: https://github.com/brainworkup/blogup
+  repo-branch: origin
+  issue-url: https://github.com/brainworkup/blogup/issues
+  repo-actions: [edit, issue]
+  page-navigation: true
+  bread-crumbs: true
+  google-analytics: "G-HW85H7H8P6"
+  cookie-consent: false
+  back-to-top-navigation: false
+  reader-mode: false
   navbar:
     right:
       - about.qmd
@@ -10,9 +41,26 @@ website:
         href: https://github.com/
       - icon: twitter
         href: https://twitter.com
-    left:
-      - prose.qmd
+  page-footer:
+    left: |
+      MIT Licensed | Copyright © 2017-present Joey Trampush | BrainWorkup, LLC
+    right:
+      - icon: github
+        href: https://github.com/brainworkup/blogup/
+        aria-label: Github
+      - icon: twitter
+        href: https://twitter.com/brainworkup/
+        aria-label: Twitter
+      - icon: instagram
+        href: https://instagram.com/brainworkup/
+        aria-label: Instagram
+      - icon: linkedin
+        aria-label: LinkedIn
+        href: https://www.linkedin.com/in/joey-trampush-brainworkup/
+      - icon: rss
+        href: https://brainworkup.org/blog/index.xml
+        aria-label: RSS
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: litera
+    css: src/styles.css
