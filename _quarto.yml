@@ -22,7 +22,7 @@ website:
     image: "images/logo.png"
     image-width: 96
     image-height: 96
-  site-url: https://blog.brainworkup.org/blog/
+  site-url: https://brainworkup.github.io/blogup/
   site-path: "/"
   repo-url: https://github.com/brainworkup/blogup
   repo-branch: origin
