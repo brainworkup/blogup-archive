@@ -1,0 +1,2 @@
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qblogup\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qblogup\\E$"}
