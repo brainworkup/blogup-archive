@@ -19,10 +19,10 @@ website:
     creator: "@brainworkup"
     site: "@brainworkup"
     card-style: "summary_large_image"
-    image: "preview.png"
+    image: "images/logo.png"
     image-width: 96
     image-height: 96
-  site-url: https://blog.brainworkup.org/
+  site-url: https://blog.brainworkup.org/blog/
   site-path: "/"
   repo-url: https://github.com/brainworkup/blogup
   repo-branch: origin
@@ -37,10 +37,6 @@ website:
   navbar:
     right:
       - about.qmd
-      - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
   page-footer:
     left: |
       MIT Licensed | Copyright © 2017-present Joey Trampush | BrainWorkup, LLC
@@ -62,5 +58,5 @@ website:
         aria-label: RSS
 format:
   html:
-    theme: litera
+    theme: vapor
     css: src/styles.css
